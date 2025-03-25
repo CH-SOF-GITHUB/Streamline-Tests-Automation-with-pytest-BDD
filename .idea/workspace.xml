@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="925a27ba-95ba-4d8a-8381-836345de925d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/features/cuke_basket.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/resources/cucumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/stepdefs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/stepdefs/test_cuke_basket.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/test_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/test_web.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/web.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/web.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/Test_Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/stepdefs/Test_Login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/test_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/stepdefs/test_web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/web.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/features/web.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Stub" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -53,6 +62,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chaker\PycharmProjects\BDDPython_v01\Tests\stepdefs" />
+      <recent name="C:\Users\chaker\PycharmProjects\BDDPython_v01\Tests\features" />
+      <recent name="C:\Users\chaker\PycharmProjects\BDDPython_v01\Tests\resources" />
+      <recent name="C:\Users\chaker\PycharmProjects\BDDPython_v01\Tests" />
+    </key>
+  </component>
   <component name="RunManager" selected="Behave.web.feature">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="PyTest BDD_python_v01" />
@@ -303,7 +320,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742909743969</updated>
-      <workItem from="1742909745116" duration="7923000" />
+      <workItem from="1742909745116" duration="12143000" />
     </task>
     <servers />
   </component>

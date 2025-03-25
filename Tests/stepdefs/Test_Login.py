@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from pytest_bdd import scenarios, given, when, then
 
-scenarios('../features/Login.feature')
+scenarios('../Tests/features/Login.feature')
 
 @pytest.fixture
 def driver():

@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 # constants
 DUCKDUCKGO_HOME = 'https://duckduckgo.com/'
 # scenarios
-scenarios('../features/web.feature')
+scenarios('../Tests/features/web.feature')
 
 
 # Fixtures
