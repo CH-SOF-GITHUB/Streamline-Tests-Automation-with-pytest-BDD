@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="925a27ba-95ba-4d8a-8381-836345de925d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/features/steps/test_web.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/web.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PyTest BDD_python_v01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyTest BDD_python_v01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/Test_Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/Test_Login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Behave.Login.feature.executor": "Run",
     "Behave.Login.feature:Login to caratlane with valid parameters.executor": "Run",
+    "Behave.web.feature.executor": "Run",
     "Python.Login.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -51,7 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Login">
+  <component name="RunManager" selected="Behave.web.feature">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="PyTest BDD_python_v01" />
       <option name="ENV_FILES" value="" />
@@ -115,6 +119,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="web.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="PyTest BDD_python_v01" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/web.feature" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
@@ -263,6 +282,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Behave.web.feature" />
         <item itemvalue="Python.Login" />
         <item itemvalue="Behave.Login.feature:Login to caratlane with valid parameters" />
         <item itemvalue="Behave.Login.feature" />
@@ -285,7 +305,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742909743969</updated>
-      <workItem from="1742909745116" duration="3282000" />
+      <workItem from="1742909745116" duration="5275000" />
     </task>
     <servers />
   </component>
@@ -294,6 +314,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BDDPython_v01$Login.coverage" NAME="Login Coverage Results" MODIFIED="1742912114507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
+    <SUITE FILE_PATH="coverage/PyTest_BDD_python_v01$web_feature.coverage" NAME="web.feature Coverage Results" MODIFIED="1742915005910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/BDDPython_v01$Login_feature_Login_to_caratlane_with_valid_parameters.coverage" NAME="Login.feature:Login to caratlane with valid parameters Coverage Results" MODIFIED="1742910383737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/BDDPython_v01$Login_feature.coverage" NAME="Login.feature Coverage Results" MODIFIED="1742910371955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>

@@ -7,4 +7,7 @@
     <orderEntry type="jdk" jdkName="Python 3.13 (BDDPython_v01)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="PyBDDFrameworkConfig">
+    <option name="preferedFrameworkName" value="pytest-bdd" />
+  </component>
 </module>
