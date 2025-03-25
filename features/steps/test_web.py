@@ -24,12 +24,24 @@ def step_impl(driver):
 
 
 @when(parsers.parse('the user searches for "{phrase}"'))
+@when(parsers.parse('the user searches for the phrase "{phrase}"'))
 def step_impl(driver, phrase):
     search_input = driver.find_element(by=By.ID, value="searchbox_input")
     search_input.send_keys(phrase + Keys.RETURN)
 
 
 @then(parsers.parse('results are show for "{phrase}"'))
+def step_impl(driver, phrase):
+    Xpath = "//div[@data-testid='result-title-a']"
+    results = driver.find_elements(by=By.XPATH, value=Xpath)
+    for result in results:
+        assert phrase in result.text
+    # check search input
+    search_input = driver.find_element(by=By.ID, value="searchbox_input")
+    assert search_input.get_attribute("value") == phrase
+
+
+@then(parsers.parse('one of the results contains "{phrase}"'))
 def step_impl(driver, phrase):
     Xpath = "//div[@data-testid='result-title-a']"
     results = driver.find_elements(by=By.XPATH, value=Xpath)
