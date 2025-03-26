@@ -13,7 +13,7 @@ def basket():
 
 @given("the basket has 2 cucumbers")
 def step_impl(basket):
-    basket.add(2)
+    basket.count = 2
 
 
 @when("4 cucumbers are added to the basket")

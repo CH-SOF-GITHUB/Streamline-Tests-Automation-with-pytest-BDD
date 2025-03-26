@@ -19,6 +19,14 @@ class CucumberBasket:
     def count(self):
         return self._count
 
+    @count.setter
+    def count(self, value):
+        if value < 0:
+            raise ValueError("value must be >= 0")
+        if value > self._max_count:
+            raise ValueError("value must be <= max_count")
+        self._count = value
+
     @property
     def full(self):
         return self.count == self.max_count
